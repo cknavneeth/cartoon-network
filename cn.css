@@ -1,0 +1,820 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.header{
+    /* display: flex; */
+    background-color: rgb(0, 0, 0);
+    
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    height: 87px;
+}
+
+.icons{
+    width: 50px;
+    height: 45px;
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+
+.cnlogo{
+    width: 100px;
+    height: 100px;
+}
+
+.iconsdiv{
+    display: flex;
+    flex-direction: column;
+    color: white; 
+}
+.climatechampions{
+    margin-left: -56px;
+}
+.tooncup{
+    margin-left: -12px;
+}
+.games{
+    margin-left: -3px;
+}
+.apps{
+    margin-left: 5px;
+}
+.roundimgdiv{
+    margin-top: 10px;
+    margin-left: -8px;
+    display: flex;
+    /* background-color: rgb(255, 255, 255); */
+    gap: 20px;
+    overflow-x: hidden;
+    
+}
+.roundimages{
+    
+    background-color: black;
+    border-radius: 50%;
+}
+.belowheaderdiv{
+    display: flex;
+    background-color:  #F8F7F8;
+}
+.lessthan{
+    position: relative;
+    box-shadow: 5px 0px 3px -3px rgb(0,0,0,.4);
+  
+    width: 67px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.lt{
+    position: absolute;
+    top: -1%;
+    right: 17%;
+    height: 23px;
+    font-size: 26px;
+    font-weight: bold;
+
+}
+.gt{
+    
+    color: rgb(13, 0, 0);
+    position: absolute;
+    top: -7%;
+    right: 59%;
+   
+    font-size: 29px;
+    font-weight: bold;
+}
+.greaterthan{
+    position: relative;
+    box-shadow: -5px 0px 3px -3px rgb(0,0,0,.4);
+  
+    width: 90px;
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(255, 255, 255); */
+}
+.thumbnailimages1{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    padding-top: 42px;
+}
+.allimages{
+   
+   border-radius: 10px;
+   display: flex;
+   gap: 20px;
+}
+.one{
+   overflow: hidden;
+}
+.leftarrow1{
+    position: absolute;
+    top: 48%;
+    left: 2%;
+    height: 50px;
+    width: 50px;
+    background-color: hsla(0, 0%, 100%, .5);
+    border-radius: 50%;
+}
+.rightarrow1{
+    position: absolute;
+    top: 49%;
+    right: 1%;
+    height: 50px;
+    width: 50px;
+    background-color:  hsla(0, 0%, 100%, .5);
+    border-radius: 50%;
+}
+.thumbnail4{
+    margin-left: -348px;
+    border-radius: 10px;
+}
+.thumbnail4  {
+    transition: transform 0.3s ease-in-out;
+}
+.thumbnail4:hover{
+   transform: scale( 1.2);
+}
+.thumbnail1{
+    border-radius: 10px;
+}
+.thumbnail1{
+    transition: transform 0.3s ease-in-out;
+}
+.thumbnail1:hover{
+    transform: scale(1.2);
+}
+.thumbnail2{
+    border-radius: 10px;
+}
+.thumbnail2{
+    transition: transform 0.3s ease-in-out;
+}
+.thumbnail2:hover{
+    transform: scale(1.2);
+}
+.thumbnail3{
+    border-radius: 10px;
+}
+.thumbnail3{
+    transition: transform 0.3s ease-in-out;
+}
+.thumbnail3:hover{
+    transform: scale(1.2);
+}
+.thumbnail5{
+    border-radius: 10px;
+}
+.thumbnail5{
+    transition: transform 0.3s ease-in-out;
+}
+.thumbnail5:hover{
+    transform: scale(1.2);
+}
+.arrow{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 17px;
+    
+    margin-top: 13px;
+}
+.firstimagehover{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 57%;
+}
+.featuredgames{
+
+    background-color: #2eade4;;
+    margin-top: 59px;
+    height: 589px;
+}
+.games-featuredgames{
+    border-radius: 50%;
+    background-color: black;
+    width: 65px;
+    height: 59px;
+    margin-top: 30px;
+}
+.icon-featured{
+    margin-left: 10px;
+    margin-top: 8px;
+    height: 43px;
+}
+.firstheading{
+    background-color: #2eade4;;
+    display: flex;
+    margin-left: 10px;
+    margin-left: 133px;
+    
+}
+.text-featured{
+    font-family: "Lubalin Graph", sans-serif;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: -0.2px;
+line-height: 48px;
+color: #000000;
+padding-left: 17px;
+}
+.featuredphotos{
+    display: flex;
+    gap: 35px;
+    margin-top: 15px;
+}
+.photo1{
+    height: 168.75px;
+width: 299.25px;
+border-radius: 10px;
+
+}
+.photo2{
+    height: 168.75px;
+width: 299.25px;
+border-radius: 10px;
+}
+.photo3{
+    height: 168.75px;
+width: 299.25px;
+border-radius: 10px;
+}
+.photo4{
+    height: 168.75px;
+width: 299.25px;
+border-radius: 10px;
+}
+.photo5{
+    height: 168.75px;
+width: 299.25px;
+border-radius: 10px;
+}
+
+.photosdiv1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    height: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+.photosdiv1:hover{
+    transform: scale(1.1);
+}
+.photosdiv2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.photosdiv2:hover{
+    transform: scale(1.1);
+}
+.photosdiv3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.photosdiv3:hover{
+    transform: scale(1.1);
+}
+.photosdiv4{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.photosdiv4:hover{
+    transform: scale(1.1);
+}
+.photosdiv5{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.photosdiv5:hover{
+    transform: scale(1.1);
+}
+.cn-text{
+    font-family: Avenir, sans-serif;
+font-size: 13px;
+font-weight: 600;
+letter-spacing: 0.8px;
+line-height: 19.5px;
+color: #a5a2a5;
+padding-left: 12px;
+
+}
+.cn-subtext{
+    color: #282725;
+    font-size: 22px;
+    font-weight: 800;
+    padding-left: 12px;
+    margin-top: -10px;
+    font-family: Avenir, sans-serif;
+    line-height: 33px;
+}
+.pht1gt{
+    position: absolute;
+    top: 53%;
+    left: 77%;
+    border-radius: 50%;
+    background-color: #000000;
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+.pht2gt{
+    position: absolute;
+    top: 53%;
+    left: 77%;
+    border-radius: 50%;
+    background-color: #000000;
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+.pht3game{
+    position: absolute;
+    top: 53%;
+    left: 77%;
+    border-radius: 50%;
+    background-color: #000000;
+    color: white;
+    height: 54px;
+    width: 55px;
+}
+.pht4game{
+    position: absolute;
+    top: 53%;
+    left: 77%;
+    border-radius: 50%;
+    background-color: #000000;
+    color: white;
+    height: 54px;
+    width: 55px;
+}
+.gameicon-photo{
+    padding-left: 11px;
+    padding-top: 10px;
+    height: 31px;
+}
+.pht5gt{
+    position: absolute;
+    top: 41%;
+    left: 31%;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: white;
+    height: 54px;
+    width: 54px;
+}
+.gt-photo{
+    font-size: 41px;
+    margin-top: 2px;
+    margin-left: 16px;
+}
+.gtabovephoto{
+    color: #000000;
+    font-size: 29px;
+    margin-left: 19px;
+    font-weight: bold;
+    margin: top;
+    margin-top: 11px;
+}
+.lt-photo{
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 43%;
+    left: -2%;
+    width: 53px;
+    height: 51px;
+}
+.ltabovephoto{
+    font-size: 34px;
+    margin-left: 13px;
+    margin-top: 9px;
+    font-weight: bold;
+}
+.check-button-div{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    width: 896px;
+    height: 58px;
+    gap: 30%;
+    border-radius: 10px;
+    margin-top: 88px;
+    margin-left: 309px;
+    transition: transform 0.3s ease-in-out;
+}
+.check-button-div:hover{
+    transform: scale(1.1);
+}
+.gameicon-button{
+    width: 31px;
+    padding-left: 16px;
+}
+.checkallgames{
+    font-family: "Lubalin Graph", sans-serif;
+    font-size: 27px;
+    line-height: 31.05px;
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.allabouttooncup{
+    background-image: url('gallery/pattern_01.0a916b46.svg');
+    background-color: #342e34;
+    height: 423px;
+    padding-top: 68px;
+    padding-left: 108px;
+    margin-top: 61px;
+}
+.toon-cup{
+    position: relative;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 1287px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.text-tooncup1{
+    color:  #080008;
+    font-family: Avenir, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36.8px;
+    margin-left: 37px;
+}
+.text-tooncup2{
+    position: absolute;
+    top: 26%;
+    color: #080008;
+    font-family: Avenir, sans-serif;
+    font-size: 16px;
+    line-height: 18.4px;
+    margin-left: 40px;
+    letter-spacing: .22px;
+    font-weight: 600;
+}
+.text-tooncup{
+    display: flex;
+    flex-direction: column;
+}
+.findoutmore{
+    position: absolute;
+    top: 26%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    width: 540px;
+    height: 61px;
+    color: white;
+    justify-content: space-between;
+    margin-top: 177px;
+    margin-left: 49px;
+    border-radius: 10px;
+}
+.arrow-in-tooncup{
+    height: 52px;
+    width: 41px;
+    margin-right: 12px;
+}
+.text-findoutmore{
+    margin-left: 161px;
+    font-family: "Lubalin Graph", sans-serif;
+    font-size: 26px;
+    line-height: 29.9px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.featuredgames1{
+
+    background-color: #FFF15C;
+    height: 589px;
+}
+.firstheading1{
+    background-color: #FFF15C;
+    display: flex;
+    margin-left: 10px;
+    margin-left: 133px;
+    
+}
+.checkallgames2{
+    font-family: "Lubalin Graph", sans-serif;
+    font-size: 27px;
+    line-height: 31.05px;
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: -46px;
+}
+.featuredgames2{
+
+    background-color: #F8F7F8;
+    height: 589px;
+}
+.firstheading2{
+    background-color: #F8F7F8;
+    display: flex;
+    margin-left: 10px;
+    margin-left: 133px;
+    
+}
+.check-button-div2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ED0080;
+    color: white;
+    width: 896px;
+    height: 58px;
+    gap: 25%;
+    border-radius: 10px;
+    margin-top: 88px;
+    margin-left: 309px;
+    transition: transform 0.3s ease-in-out;
+}
+.check-button-div2:hover{
+    transform: scale(1.1);
+}
+.allabouttooncup3{
+    background-image: url('gallery/pattern_01.0a916b46.svg');
+    background-color: #342e34;
+    height: 423px;
+    padding-top: 68px;
+    padding-left: 108px;
+    /* margin-top: 61px; */
+}
+
+ .featuredgames4{
+
+    background-image: url('gallery/hundredstars.png');
+    height: 589px;
+}  
+.firstheading4{
+    display: flex;
+    margin-left: 10px;
+    margin-left: 133px;
+    
+}
+.checkallgames4{
+    font-family: "Lubalin Graph", sans-serif;
+    font-size: 20px;
+    line-height: 31.05px;
+    margin-top: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: -136px;
+}
+.rightarrowteentitan{
+    width: 50px;
+    margin-left: -134px;
+}
+.check-button-div4{
+    display: flex;
+    justify-content: space-around;
+    background-color:  #2FB6EA;
+    color: white;
+    width: 927px;
+    height: 65px;
+    gap: 30%;
+    border-radius: 10px;
+    margin-top: 88px;
+    margin-left: 309px;
+    transition: transform 0.3s ease-in-out;
+}
+.check-button-div4:hover{
+    transform: scale(1.1);
+}
+
+.text-featured4{
+    font-family: "Lubalin Graph", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    line-height: 48px;
+    color: #000000;
+    padding-left: 17px;
+} 
+.featuredphotos5{
+    display: flex;
+    gap: 35px;
+    margin-top: 15px;
+    padding-left: 249px;
+}
+.featuredgames5{
+    
+    background-image: url('gallery/ivandoe-background-tile.db58d08b.png');
+    height: 589px;
+}
+.firstheading5{
+    display: flex;
+    margin-left: 10px;
+    margin-left: 133px;
+    
+}
+.check-button-div5{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    width: 896px;
+    height: 58px;
+    gap: 38%;
+    border-radius: 10px;
+    margin-top: 88px;
+    margin-left: 309px;
+    transition: transform 0.3s ease-in-out;
+}
+.check-button-div5:hover{
+    transform: scale(1.1);
+}
+.checkallgames5{
+    font-family: "Lubalin Graph", sans-serif;
+    font-size: 24px;
+    line-height: 27.6px;
+   
+    text-align: center;
+    margin-top: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: -253px;
+}
+.rightarrowprince{
+    width: 38px;
+    margin-left: -236px;
+}
+.lt-photo6{
+    border-radius: 50%;
+    background-color:hsla(0, 0%, 100%, .5);
+    position: absolute;
+    top: 43%;
+    left: -2%;
+    width: 53px;
+    height: 51px;
+}
+.pht5gt6{
+    position: absolute;
+    top: 41%;
+    left: 31%;
+    border-radius: 50%;
+    background-color: hsla(0, 0%, 100%, .5);
+    color: white;
+    height: 54px;
+    width: 54px;
+}
+
+.check-button-div6{
+    display: flex;
+    justify-content: space-around;
+    background-color: #4F9968;
+    color: white;
+    width: 896px;
+    height: 58px;
+    gap: 29%;
+    border-radius: 10px;
+    margin-top: 88px;
+    margin-left: 309px;
+    transition: transform 0.3s ease-in-out;
+}
+.check-button-div6:hover{
+    transform: scale(1.1);
+}
+.rightarrowcraig{
+    width: 40px;
+    margin-left: -201px;
+}
+.gameicon-button6{
+    
+    padding-left: 16px;
+    margin-right: -209px;
+    width: 60px;
+    height: 63px;
+    margin-top: -15px;
+}
+.checkallgames6{
+    font-family: "Lubalin Graph", sans-serif;
+    font-size: 27px;
+    line-height: 31.05px;
+    margin-top: 14px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.featuredgames6{
+
+    background-image: url(gallery/backgroundtile.png);
+    margin-top: 59px;
+    height: 589px;
+}
+.firstheading6{
+    display: flex;
+    margin-left: 10px;
+    margin-left: 133px;
+    
+}
+.footer{
+    background-color: #000000;
+    height: 369px;
+    margin-top: 60px;
+   
+}
+.footer-firstsection{
+    background-color: rgb(0, 0, 0);
+    padding-left: 276px;
+    padding-top: 64px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.text1-footer{
+     color: white;
+     font-family: Avenir, sans-serif;
+     font-size: 16px;
+     line-height: 21.28px;
+}
+.cnlogo-footer{
+    height: 84px;
+    width: 67px;
+    padding-left: 4px;
+}
+.footer-secondsection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 277px;
+}
+.first-twotags{
+    display: flex;
+    flex-direction: column;
+    gap: 26%;
+    
+}
+.second-twotags{
+    display: flex;
+    flex-direction: column;
+    gap: 26%;
+}
+.warnerbros{
+    height: 88px;
+    width: 157px;
+    margin-top: -12px;
+}
+.cartoonimage{
+    height: 92px;
+    width: 117px;
+    margin-top: -11px;
+}
+.imagediv-footer{
+    display: flex;
+    gap: 8%;
+    
+}
+a:link,
+a:visited{
+    color: white;
+}
+.gameicon-button5{
+    width: 54px;
+    padding-left: 12px;
+    margin-top: -14px;
+}
+.gameicon-button4{
+    width: 73px;
+    padding-left: 7px;
+    margin-top: -21px;
+}
+.gameicon-button2{
+    width: 45px;
+    padding-left: 16px;
+}
+.rightarrowquiz{
+    width: 37px;
+}
+.rightarrowvideos{
+    width: 36px;
+}
+.rightarrowfeaturedgames{
+    width: 36px;
+}
